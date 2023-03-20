@@ -21,7 +21,7 @@ const Service = () => {
                 <h2 className="py-6 text-3xl md:text-4xl font-bold">
                     Our Service Area</h2>
                 <p className="py-6 text-sm">the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  </p>
-                <input className="input input-sm mb-8" ref={searchRef} type="text" /> 
+                <input className="input input-sm mb-8 border-red-400" ref={searchRef} type="text" /> 
                 <div className="flex justify-center gap-4">
                 <button className="btn bg-red-400 border-red-400 w-24" onClick={handleSearch}>Search</button>
                 <button className="btn bg-red-400 border-none w-24" onClick={() => setISAsc(!isAsc)}>{isAsc ? 'desc' : 'asc'}</button>
